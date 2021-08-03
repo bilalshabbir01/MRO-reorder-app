@@ -1,0 +1,54 @@
+{
+  "name": "MRO",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "5": "react-native run-ios --simulator='iPhone 5'",
+    "11": "react-native run-ios --simulator='iPhone 11'",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "5": "react-native run-ios --simulator='iPhone 5'",
+    "@react-native-async-storage/async-storage": "^1.15.5",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-picker/picker": "^1.16.3",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "jwt-decode": "^3.1.2",
+    "native-base": "^3.0.2",
+    "qs": "^6.10.1",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-dropdown-picker": "^5.1.21",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-modal": "^12.0.2",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-render-html": "^5.1.1",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.3.0",
+    "react-native-status-bar-height": "^2.6.0",
+    "react-native-table-component": "^1.2.1",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/runtime": "^7.14.6",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^27.0.2",
+    "eslint": "^7.28.0",
+    "jest": "^27.0.4",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
